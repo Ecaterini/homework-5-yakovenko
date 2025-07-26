@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <article>
+        <h1>Селектор тега,вага 1</h1>
+    </article>
+    <h2 class="title">Селектор класу, вага 10</h2>
+    <section id="section">
+        <h3>Селектор id, вага 100</h3>
+    </section>
+    <p style="height: 30px;">Селектор атрибуту,вага 10</p>
+    <h2 class="title-second"> <span>Застосовується до усіх span,</span><i> <span>вкладених в тег h2 з класом
+                title-second,на усіх рівнях, вага 12</span></i></h2>
+    <div>
+        <a>Застосовується до тегів a, вкладених у div, на першому рівні, вага 2</a>
+    </div>
+    <pre
+        class="sequence-first"><em>Застосовується до  першого тегу b після тегу em </em>,     <b> що знаходиться</b>  у тегі pre з класом sequence-first, <b>,вага 13</b></pre>
+    <pre
+        class="sequence-all"><em>Застосовується до усіх тегів b після тегу em </em>,     <b> що знаходиться</b>  у тегі pre з класом sequence-all, <b>,вага 13</b></pre>
+    <form class="form" action="#" method="get">
+        <label for="firstname">Застосовується до тегу input з id =firstname, що знаходиться у тегі form з класом form ,
+            вага 112</label>
+        <input id="firstname" name="firstname" required type="text" placeholder="firstname">
+        <input id="lastname" name="firstname" required type="text" placeholder="firstname">
+    </form>
+    <div class="container">Застосовується до тегу li з id=second, який розташований у тегі ul з атрибутом class, який
+        розташований у тегі div з класом container, вага 123
+        <ul class="list">
+            <li id="first">Пункт з id=first</li>
+            <li id="second">Пункт з id=second</li>
+        </ul>
+    </div>
+</body>
+
+</html>
