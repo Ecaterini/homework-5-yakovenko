@@ -1,0 +1,37 @@
+article {
+  background-color: blueviolet;
+}
+.title {
+  background-color: #ddee1b;
+}
+#section {
+  background-color: #ee1bab;
+  margin-bottom: 10px;
+}
+[style] {
+  background-color: #eeb61b;
+}
+h2.title-second span {
+  background-color: #0091ff;
+}
+div > a {
+  background-color: #00ffd5;
+  color: #060606;
+}
+pre.sequence-first em + b {
+  background-color: #ff0015;
+}
+pre.sequence-all em ~ b {
+  background-color: #1100ff;
+}
+form.form input#firstname {
+  background-color: #00ff1e;
+}
+
+div.container ul[class] li#second {
+  background-color: #ff005d;
+}
+.container {
+  background-color: #00ffb385;
+  margin-top: 30px;
+} /* візуально відділила блок на сторінці*/
