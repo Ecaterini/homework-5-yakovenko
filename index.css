@@ -35,3 +35,6 @@ div.container ul[class] li#second {
   background-color: #00ffb385;
   margin-top: 30px;
 } /* візуально відділила блок на сторінці*/
+.container {
+  background-color: #eeb61b;
+}
